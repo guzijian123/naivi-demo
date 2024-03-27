@@ -1,0 +1,51 @@
+# 忽略编译生成的文件和目录
+target/
+
+# 忽略日志文件
+*.log
+
+# 忽略IDE的配置目录
+.idea/
+.vscode/
+
+# 忽略项目依赖的缓存目录
+.mvn/
+
+# 忽略项目打包生成的jar或war文件
+*.jar
+*.war
+
+# 忽略项目生成的报告文件
+*.jacoco
+
+# 忽略项目中的特定文件
+*.iml
+
+# 忽略项目中的测试报告
+build/reports/
+
+# 忽略配置文件，根据实际情况可以取消忽略部分或全部配置文件
+application.properties
+application.yml
+application-dev.properties
+application-dev.yml
+application-prod.properties
+application-prod.yml
+
+# 忽略自定义的文件
+custom.properties
+
+# 忽略IDE的特定文件
+.classpath
+.project
+.settings/
+
+# 忽略外部工具生成的文件
+mvnw
+mvnw.cmd
+
+# 忽略Docker配置文件
+Dockerfile
+docker-compose.yml
+
+# 忽略其他不需要版本控制的文件或目录
